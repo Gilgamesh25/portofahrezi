@@ -41,7 +41,7 @@ export function CertificationGrid() {
             </span>
           </div>
           <p className="mt-3 text-sm text-secondary">
-            Ketuk untuk lihat fotonya
+            Ketuk untuk lihat Sertifikasinya
           </p>
         </motion.a>
       ))}

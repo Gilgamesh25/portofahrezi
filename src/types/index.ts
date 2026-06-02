@@ -53,6 +53,7 @@ export interface Education {
   period: string;
   gpa?: string;
   description?: string;
+  diplomaUrl?: string;
 }
 
 export interface Certification {

@@ -26,6 +26,25 @@ export function EducationSection() {
           {edu.description && (
             <p className="mt-3 text-secondary text-sm leading-relaxed">{edu.description}</p>
           )}
+          {edu.diplomaUrl && (
+            <a
+              href={edu.diplomaUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 rounded-full bg-primary/10 px-4 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary hover:text-white focus:outline-none focus:ring-2 focus:ring-primary"
+              aria-label={`Lihat ijazah ${edu.institution} di tab baru`}
+            >
+              Lihat Ijazah
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M14 3h7m0 0v7m0-7L10 14M5 5v14h14"
+                />
+              </svg>
+            </a>
+          )}
         </motion.article>
       ))}
     </div>

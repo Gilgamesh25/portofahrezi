@@ -11,7 +11,7 @@ export const siteProfile: SiteProfile = {
   name: "Fahrezi Auliasyafa",
   title: "IT & konten kreatif",
   elevatorPitch:
-    "Lulusan Informatika UMSIDA (IPK 3,89). Sehari-hari saya ngoding web sederhana, bikin materi visual, dan ikut dokumentasi acara—kadang sekaligus. Kalau butuh orang yang bisa paham kebutuhan tim sekaligus beresin tampilan dan teknisnya, saya biasanya di situ.",
+    "Lulusan Informatika UMSIDA (IPK 3,89). Sehari hari saya ngoding web sederhana, bikin materi visual, dan ikut dokumentasi acara—kadang sekaligus. Kalau butuh orang yang bisa paham kebutuhan tim sekaligus beresin tampilan dan teknisnya, saya biasanya di situ.",
   email: "fahreziaulia19@gmail.com",
   whatsapp: "+6285748947956",
   linkedin: "https://www.linkedin.com/in/fahrezi-auliasyafa",
@@ -36,6 +36,7 @@ export const skillGroups: SkillGroup[] = [
       "Figma",
       "CapCut",
       "Adobe Photoshop",
+      "Google Sheets",
     ],
   },
   {
@@ -47,13 +48,14 @@ export const skillGroups: SkillGroup[] = [
       "HTML",
       "CSS",
       "JavaScript",
-      "Visualisasi Data",
       "PHP",
+      "Python",
+      "Looker Studio",
     ],
   },
   {
     id: "soft",
-    title: "Keterampilan Lunak",
+    title: "Soft Skill",
     description: "Yang kepakai pas kerja bareng orang banyak",
     variant: "soft",
     items: [
@@ -77,7 +79,7 @@ export const experiences: Experience[] = [
     highlights: [
       { label: "Publikasi", value: "20+ materi siap tayang" },
       { label: "Pelatihan", value: "15+ program, 400+ peserta (survey rata-rata 4,5/5)" },
-      { label: "Dokumentasi", value: "40+ acara keburu difoto & diedit" },
+      { label: "Dokumentasi", value: "40+ acara yabg didokumentasikan & diedit" },
     ],
   },
   {
@@ -114,7 +116,7 @@ export const experiences: Experience[] = [
     startDate: "2023-07-01",
     endDate: "2023-10-31",
     highlights: [
-      { label: "Teknologi", value: "HTML, CSS, JavaScript, PHP" },
+      { label: "Teknologi", value: "HTML, BootstrapCSS, JavaScript, PHP" },
       { label: "Kerjaan", value: "Bikin halaman & urus isi portal pelatihan" },
     ],
   },
@@ -125,10 +127,11 @@ export const education: Education[] = [
     id: "umsida-s1",
     institution: "Universitas Muhammadiyah Sidoarjo (UMSIDA)",
     degree: "Sarjana Informatika (S1)",
-    period: "2020 – 2025",
+    period: "2021 – 2025",
     gpa: "3,89",
     description:
       "Belajar bikin aplikasi/web, visualisasi data, plus terbiasa presentasi dan kerja kelompok.",
+    diplomaUrl: "https://drive.google.com/file/d/1nEsHRnf5Z9LRHPS53RKGzpUOOX3LPvFK/view?usp=drive_link",
   },
 ];
 
@@ -139,7 +142,7 @@ export const certifications: Certification[] = [
     issuer: "BNSP / LSP",
     year: 2024,
     credentialUrl:
-      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1SvMhwcEYEO4axpeYYkIOBRTM12kZLBh9/view?usp=drive_link",
   },
   {
     id: "cert-jgd",
@@ -147,63 +150,79 @@ export const certifications: Certification[] = [
     issuer: "BNSP",
     year: 2024,
     credentialUrl:
-      "https://images.unsplash.com/photo-1626785774573-4b799315346d?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1cIGR6hh2rQXktqgTRiYdmDHOsTtpVqOx/view?usp=drive_link",
   },
   {
     id: "cert-jna",
     title: "Junior Network Administrator",
     issuer: "BNSP",
-    year: 2023,
+    year: 2025,
     credentialUrl:
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1n_qpgwqUtFy3-9ynnFpkDcNpigWh9LQI/view?usp=drive_link",
   },
   {
     id: "cert-toefl",
     title: "TOEFL ITP 630",
     issuer: "ETS / Lembaga Bahasa",
-    year: 2024,
+    year: 2026,
     credentialUrl:
-      "https://images.unsplash.com/photo-1456513080920-9a949d04f168?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1lG-VT7W4-UOuEbyOQSens7I9hUHIl7P6/view?usp=drive_link",
   },
   {
     id: "cert-spbe",
     title: "Sertifikasi SPBE Kominfo",
     issuer: "Kementerian Kominfo",
-    year: 2024,
+    year: 2026,
     credentialUrl:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1W1goYFCah2Y0pgR8B8Wlcqw1eyDPd3eu/view?usp=sharing",
   },
   {
     id: "cert-revou",
     title: "Data Analytics",
     issuer: "RevoU",
-    year: 2024,
+    year: 2025,
     credentialUrl:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1P3ZgOqGBsmOr6KhljzNAhS6vUMkJdWBg/view?usp=drive_link",
   },
   {
     id: "cert-pm",
     title: "Project Management",
     issuer: "Dibimbing",
-    year: 2024,
+    year: 2025,
     credentialUrl:
-      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1xeMisnnz6oFPmRAZHIEtVyG32r0dfC9I/view?usp=drive_link",
   },
   {
     id: "cert-ads",
     title: "Associate Data Scientist",
     issuer: "Lembaga Sertifikasi Profesi",
-    year: 2025,
+    year: 2026,
     credentialUrl:
-      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1FdSKNb-SCZPBS3d0Dia0ejvpllfl5ALC/view?usp=drive_link",
   },
   {
-    id: "cert-literasi",
-    title: "Pelatihan Literasi Digital Kominfo",
-    issuer: "Kementerian Kominfo",
-    year: 2023,
+    id: "cert-digma",
+    title: "Digital Affiliate Marketing",
+    issuer: "BBPVP SERANG",
+    year: 2026,
     credentialUrl:
-      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=1200&q=80&fm=webp",
+      "https://drive.google.com/file/d/1DpcKWRETmq2a2PTZSuZQNyqM1volXmkI/view?usp=sharing",
+  },
+  {
+    id: "cert-Pemdi",
+    title: "Pemasaran Digital Dengan Kecerdasan Buatan untuk Wirausaha",
+    issuer: "Kementerian Kominfo",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1OJkQEasnoR8ePf-pqaswOcJVNuRGa9MP/view?usp=sharing",
+  },
+  {
+    id: "cert-IBM",
+    title: "Code Generation and Optimization Using IBM Granite",
+    issuer: "IBM SkillsBuild",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1n5K_Rci09gM3wpLpfCnNfAvBY_MM5r3J/view?usp=sharing",
   },
 ];
 
@@ -259,12 +278,12 @@ export const projects: Project[] = [
     role: "Pengembang & Admin Web",
     tools: ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
     challenge:
-      "Konten pelatihan sering ganti, tapi websitenya harus tetap jalan dan gampang di-update tim.",
+      "Konten pelatihan sering ganti, tapi websitenya harus tetap jalan dan gampang diupdate tim.",
     solution:
       "Panel admin sederhana, tampilan halaman yang seragam, plus cek isian form biar data masuknya rapi.",
     metrics: [
       { label: "Magang", value: "4 bulan" },
-      { label: "Halaman", value: "15+ halaman" },
+      { label: "Halaman", value: "5+ halaman" },
       { label: "Pakai", value: "HTML, CSS, JS, PHP" },
     ],
     featured: true,
@@ -286,7 +305,7 @@ export const projects: Project[] = [
     solution:
       "Template Canva, catatan alur dokumentasi, dan ritme editing biar materi cepat naik ke kanal yang diminta.",
     metrics: [
-      { label: "Acara keburu difoto", value: "40+" },
+      { label: "Acara yang didokumentasikan", value: "40+" },
       { label: "Materi publikasi", value: "20+" },
       { label: "Survey peserta", value: "4,5/5" },
     ],
@@ -294,7 +313,7 @@ export const projects: Project[] = [
       label: "Buka katalog dokumentasi & publikasi",
       url: "https://docs.google.com/spreadsheets/d/1JRcgp82befBa77UJLVO7M9AigPv9mrVEhM3vEGGnOds/edit?usp=sharing",
       description:
-        "Daftar lengkap materi publikasi dan dokumentasi acara BLSDM Komdigi Surabaya—judul, tanggal, dan tautan konten. Dibuka di Google Sheets (tab baru).",
+        "Daftar lengkap materi publikasi dan dokumentasi acara BLSDM Komdigi Surabaya mulai dari judul, tanggal, dan tautan konten. Dibuka di Google Sheets (tab baru).",
     },
     featured: true,
     year: 2026,
