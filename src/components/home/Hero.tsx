@@ -25,7 +25,7 @@ export function Hero() {
           className="relative z-10 max-w-3xl"
         >
           <p className="text-sm font-medium text-secondary mb-4">
-            Surabaya · portofolio & riwayat kerja
+            Sidoarjo · portofolio & riwayat kerja
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-primary leading-tight">
             {siteProfile.name}
