@@ -11,7 +11,7 @@ export const siteProfile: SiteProfile = {
   name: "Fahrezi Auliasyafa",
   title: "IT & konten kreatif",
   elevatorPitch:
-    "Lulusan Informatika UMSIDA (IPK 3,89). Sehari hari saya ngoding web sederhana, bikin materi visual, dan ikut dokumentasi acara—kadang sekaligus. Kalau butuh orang yang bisa paham kebutuhan tim sekaligus beresin tampilan dan teknisnya, saya biasanya di situ.",
+    "Lulusan Informatika UMSIDA (IPK 3,89). Sehari hari saya ngoding web sederhana, bikin materi visual, dan ikut dokumentasi acara. Kalau butuh orang yang bisa paham kebutuhan tim sekaligus beresin tampilan dan teknisnya, saya biasanya di situ.",
   email: "fahreziaulia19@gmail.com",
   whatsapp: "+6285748947956",
   linkedin: "https://www.linkedin.com/in/fahrezi-auliasyafa",
