@@ -15,7 +15,7 @@ export default function ContactPage() {
         <SectionHeading
           eyebrow="Kontak"
           title="Mau ngobrol?"
-          description="Isi form di kiri, atau langsung chat lewat kontak di kanan."
+          description="Isi di form, atau langsung chat lewat kontak di kanan."
         />
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-10">
           <div className="lg:col-span-2 rounded-2xl bg-white border border-primary/10 p-6 md:p-8 shadow-card">

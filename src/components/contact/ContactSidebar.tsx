@@ -8,7 +8,7 @@ export function ContactSidebar() {
       <h2 className="text-xl font-bold">Langsung aja</h2>
       <p className="mt-2 text-white/80 text-sm leading-relaxed">
         Mau ngajak kerja bareng, tanya soal web, atau butuh orang dokumentasi
-        acara—silakan lewat salah satu kontak di bawah.
+        acara, silakan lewat salah satu kontak di bawah.
       </p>
       <ul className="mt-6 space-y-4">
         <li>
