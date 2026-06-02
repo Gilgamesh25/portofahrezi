@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portofolio Fahrezi Auliasyafa
 
-## Getting Started
+Situs web portofolio pribadi interaktif berbasis **Next.js 16 (App Router)**, **Tailwind CSS**, dan **Framer Motion** dengan arsitektur terpisah (data layer, API routes, UI components).
 
-First, run the development server:
+## Lokasi
+
+`C:\laragon\www\fahrezi-portfolio`
+
+## Menjalankan
 
 ```bash
+cd C:\laragon\www\fahrezi-portfolio
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Buka [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Untuk Laragon + Apache, jalankan `npm run build` lalu `npm run start` pada port 3000, atau konfigurasikan reverse proxy ke proses Node.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Struktur
 
-## Learn More
+- `src/app` — Halaman App Router (Beranda, Portofolio, About, Kontak)
+- `src/components` — UI terpisah per domain
+- `src/data/mockData.ts` — Sumber data tiruan (siap diganti CMS/Supabase)
+- `src/store` — Zustand untuk filter portofolio asinkron
+- `src/app/api` — REST endpoints (`/api/projects`, `/api/certifications`, `/api/contact`)
 
-To learn more about Next.js, take a look at the following resources:
+## CV
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+CV aktif: `public/cv/CV_FAHREZI AULIASYAFA (1).pdf` (diatur di `src/data/mockData.ts`).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Integrasi Formulir
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Logika mock ada di `src/lib/contactService.ts`. Untuk produksi, hubungkan ke [Web3Forms](https://web3forms.com) atau EmailJS di endpoint `/api/contact`.
