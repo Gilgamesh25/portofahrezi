@@ -11,7 +11,7 @@ export function PortfolioPageClient() {
         <SectionHeading
           eyebrow="Karya"
           title="Portofolio"
-          description="Pilih kategori kalau mau menyaring—nggak perlu pindah halaman."
+          description="Pilih kategori kalau mau menyaring, nggak perlu pindah halaman."
         />
         <div className="mb-8 md:mb-10">
           <CategoryFilter />

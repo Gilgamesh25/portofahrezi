@@ -18,7 +18,7 @@ export const siteProfile: SiteProfile = {
   instagram: "https://www.instagram.com/aulxsya_",
   cvUrl: encodeURI("/cv/CV_FAHREZI AULIASYAFA (1).pdf"),
   cvDownloadName: "CV_Fahrezi_Auliasyafa.pdf",
-  location: "Surabaya, Indonesia",
+  location: "Sidoarjo, Indonesia",
   metaDescription:
     "Portofolio Fahrezi Auliasyafa, web, dokumentasi acara, dan konten kreatif. Based in Surabaya.",
   profilePhoto: "/images/profil.png",
