@@ -224,6 +224,14 @@ export const certifications: Certification[] = [
     credentialUrl:
       "https://drive.google.com/file/d/1n5K_Rci09gM3wpLpfCnNfAvBY_MM5r3J/view?usp=sharing",
   },
+  {
+    id: "cert-Komunikasi",
+    title: "Komunikasi Profesional Untuk Lolos Interview Kerja",
+    issuer: "BPVP Bandung Barat",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/19CGxw7aNAGJRqL5Mlj4wg5aR4alfH6Bf/view?usp=sharing",
+  },
 ];
 
 const img = (id: string, w = 800) =>
