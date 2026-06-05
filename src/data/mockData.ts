@@ -3,6 +3,7 @@ import type {
   Education,
   Experience,
   Project,
+  SideProject,
   SiteProfile,
   SkillGroup,
 } from "@/types";
@@ -421,4 +422,60 @@ export function filterProjectsByCategory(
 ): Project[] {
   if (category === "Semua") return projects;
   return projects.filter((p) => p.category === category);
+}
+
+// ── Side projects ──────────────────────────────────────────
+
+export const sideProjectCategories = [
+  "Semua",
+  "Aplikasi Web",
+  "Aplikasi Mobile",
+  "Data & Analitik",
+  "Lainnya",
+] as const;
+
+const sp = (id: string, w = 800) =>
+  `https://images.unsplash.com/${id}?w=${w}&q=80&fm=webp`;
+
+export const sideProjects: SideProject[] = [
+  {
+    id: "sp-web1",
+    title: "Company Profile Trikayarasa Jayafood",
+    category: "Aplikasi Web",
+    shortDescription:
+      "Website Company Profile",
+    thumbnail: sp("photo-1460925895917-afdab827c52f"),
+    images: [sp("photo-1460925895917-afdab827c52f")],
+    tools: ["Laravel10", "HTML", "Blade", "Tailwind CSS"],
+    challenge:
+      "Website Company Profile.",
+    solution:
+      "Website Company Profile.",
+    metrics: [
+      { label: "Stack", value: "Laravel10 + Tailwind CSS" },
+      { label: "Animasi", value: "Framer Motion" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2025,
+    links: {
+      github: "https://github.com/Gilgamesh25/New-Website-Company",
+      demo: "https://www.trikayarasajayafood.com/",
+    },
+    featured: true,
+  }
+];
+
+export function getSideProjectById(id: string): SideProject | undefined {
+  return sideProjects.find((p) => p.id === id);
+}
+
+export function getFeaturedSideProjects(): SideProject[] {
+  return sideProjects.filter((p) => p.featured);
+}
+
+export function filterSideProjectsByCategory(
+  category: (typeof sideProjectCategories)[number]
+): SideProject[] {
+  if (category === "Semua") return sideProjects;
+  return sideProjects.filter((p) => p.category === category);
 }

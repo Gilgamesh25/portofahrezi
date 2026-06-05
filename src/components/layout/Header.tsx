@@ -9,6 +9,7 @@ import { siteProfile } from "@/data/mockData";
 const navLinks = [
   { href: "/", label: "Beranda" },
   { href: "/portfolio", label: "Portofolio" },
+  { href: "/projects", label: "Projek" },
   { href: "/about", label: "Pengalaman" },
   { href: "/contact", label: "Kontak" },
 ];

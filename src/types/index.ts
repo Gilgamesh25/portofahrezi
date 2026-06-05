@@ -72,6 +72,33 @@ export interface SkillGroup {
   variant: "software" | "technology" | "soft";
 }
 
+export type SideProjectCategory =
+  | "Aplikasi Web"
+  | "Aplikasi Mobile"
+  | "Data & Analitik"
+  | "Lainnya";
+
+export type SideProjectCategoryFilter = SideProjectCategory | "Semua";
+
+export interface SideProject {
+  id: string;
+  title: string;
+  category: SideProjectCategory;
+  shortDescription: string;
+  thumbnail: string;
+  images: string[];
+  tools: string[];
+  challenge: string;
+  solution: string;
+  metrics: ProjectMetrics[];
+  year: number;
+  links?: {
+    github?: string;
+    demo?: string;
+  };
+  featured?: boolean;
+}
+
 export interface ContactFormData {
   fullName: string;
   email: string;

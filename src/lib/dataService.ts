@@ -1,10 +1,13 @@
 import {
   certifications,
   filterProjectsByCategory,
+  filterSideProjectsByCategory,
   getProjectById,
+  getSideProjectById,
   projects,
+  sideProjects,
 } from "@/data/mockData";
-import type { ProjectCategoryFilter } from "@/types";
+import type { ProjectCategoryFilter, SideProjectCategoryFilter } from "@/types";
 
 /**
  * Lapisan akses data terpisah — saat ini membaca mockData.
@@ -16,4 +19,8 @@ export const dataService = {
   getProjectsByCategory: (category: ProjectCategoryFilter) =>
     filterProjectsByCategory(category),
   getAllCertifications: () => certifications,
+  getAllSideProjects: () => sideProjects,
+  getSideProjectById: (id: string) => getSideProjectById(id),
+  getSideProjectsByCategory: (category: SideProjectCategoryFilter) =>
+    filterSideProjectsByCategory(category),
 };
