@@ -225,7 +225,7 @@ export const certifications: Certification[] = [
       "https://drive.google.com/file/d/1n5K_Rci09gM3wpLpfCnNfAvBY_MM5r3J/view?usp=sharing",
   },
   {
-    id: "cert-Komunikasi",
+    id: "cert-bpvp",
     title: "Komunikasi Profesional Untuk Lolos Interview Kerja",
     issuer: "BPVP Bandung Barat",
     year: 2026,
