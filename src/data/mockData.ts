@@ -231,7 +231,7 @@ export const certifications: Certification[] = [
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/19CGxw7aNAGJRqL5Mlj4wg5aR4alfH6Bf/view?usp=sharing",
-  }
+  },
   
   {
     id: "cert-CC",
