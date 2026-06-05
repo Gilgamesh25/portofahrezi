@@ -139,7 +139,7 @@ export const certifications: Certification[] = [
   {
     id: "cert-okm",
     title: "Operasi Komputer Madya",
-    issuer: "BNSP / LSP",
+    issuer: "Digitalent",
     year: 2024,
     credentialUrl:
       "https://drive.google.com/file/d/1SvMhwcEYEO4axpeYYkIOBRTM12kZLBh9/view?usp=drive_link",
@@ -147,7 +147,7 @@ export const certifications: Certification[] = [
   {
     id: "cert-jgd",
     title: "Junior Graphic Designer",
-    issuer: "BNSP",
+    issuer: "Digitalent",
     year: 2024,
     credentialUrl:
       "https://drive.google.com/file/d/1cIGR6hh2rQXktqgTRiYdmDHOsTtpVqOx/view?usp=drive_link",
@@ -162,8 +162,8 @@ export const certifications: Certification[] = [
   },
   {
     id: "cert-toefl",
-    title: "TOEFL ITP 630",
-    issuer: "ETS / Lembaga Bahasa",
+    title: "TOEFL ITP Score: 630",
+    issuer: "Global Operation Indonesia",
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/1lG-VT7W4-UOuEbyOQSens7I9hUHIl7P6/view?usp=drive_link",
@@ -171,7 +171,7 @@ export const certifications: Certification[] = [
   {
     id: "cert-spbe",
     title: "Sertifikasi SPBE Kominfo",
-    issuer: "Kementerian Kominfo",
+    issuer: "Digitalent",
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/1W1goYFCah2Y0pgR8B8Wlcqw1eyDPd3eu/view?usp=sharing",
@@ -187,7 +187,7 @@ export const certifications: Certification[] = [
   {
     id: "cert-pm",
     title: "Project Management",
-    issuer: "Dibimbing",
+    issuer: "Dibimbing.id",
     year: 2025,
     credentialUrl:
       "https://drive.google.com/file/d/1xeMisnnz6oFPmRAZHIEtVyG32r0dfC9I/view?usp=drive_link",
@@ -195,7 +195,7 @@ export const certifications: Certification[] = [
   {
     id: "cert-ads",
     title: "Associate Data Scientist",
-    issuer: "Lembaga Sertifikasi Profesi",
+    issuer: "Digitalent",
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/1FdSKNb-SCZPBS3d0Dia0ejvpllfl5ALC/view?usp=drive_link",
@@ -211,7 +211,7 @@ export const certifications: Certification[] = [
   {
     id: "cert-Pemdi",
     title: "Pemasaran Digital Dengan Kecerdasan Buatan untuk Wirausaha",
-    issuer: "Kementerian Kominfo",
+    issuer: "Digitalent",
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/1OJkQEasnoR8ePf-pqaswOcJVNuRGa9MP/view?usp=sharing",
@@ -231,6 +231,15 @@ export const certifications: Certification[] = [
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/19CGxw7aNAGJRqL5Mlj4wg5aR4alfH6Bf/view?usp=sharing",
+  }
+  
+  {
+    id: "cert-CC",
+    title: "Video Content Creator",
+    issuer: "Digitalent",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1O6zfr-nwoykOK5urSJT8lkjOB--ZfYED/view?usp=sharing",
   },
 ];
 
