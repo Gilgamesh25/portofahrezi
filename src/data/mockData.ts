@@ -477,7 +477,7 @@ export const sideProjects: SideProject[] = [
     solution:
       "House Price Prediction using Linear Regression.",
     metrics: [
-      { label: "Stack", value: "Python" },
+      { label: "Stack", value: "Python, Jyupiter Notebook" },
       { label: "Framework", value: "Pandas, Numpy" },
       { label: "Status", value: "Aktif" },
     ],
@@ -485,6 +485,31 @@ export const sideProjects: SideProject[] = [
     links: {
       github: "https://github.com/Gilgamesh25/model-prediksi-harga-dengan-Machine-Learning-Linear_Regression-.",
       demo: "https://colab.research.google.com/drive/1L7e0N9aYeQmrltd13BsveapaTBRsX1c7?usp=sharing",
+    },
+    featured: true,
+  },
+  {
+    id: "sp-data2",
+    title: "Analisis Pergeseran Emosi Lirik Lagu Anak-Anak Antar Generasi",
+    category: "Data & Analitik",
+    shortDescription:
+      "proyek Analisis Data & Natural Language Processing (NLP) Ringan yang berfokus pada studi budaya dan linguistik. Proyek ini bertujuan untuk mendeteksi secara otomatis apakah ada pergeseran emosi (sentimen) pada lirik lagu yang dikonsumsi anak-anak zaman dulu (era 80/90-an) dibandingkan dengan era sekarang (era internet/media sosial).",
+    thumbnail: "/images/projects/House Price Prediction using Linear Regression.jpg",
+    images: ["/images/projects/House Price Prediction using Linear Regression.jpg"],
+    tools: ["Python", "Colab", "Pandas", "Numpy"],
+    challenge:
+      "Tantangan utama proyek ini adalah adanya bias data akibat perbedaan panjang lirik antara lagu pendek era dulu dan lagu modern yang repetitif, serta batasan bahasa (bilingual) pada database API gratis Lyrics.ovh yang rawan memicu eror jika teks tidak standar.",
+    solution:
+      "Solusi yang diterapkan adalah membangun pipeline text preprocessing untuk menstandardisasi teks lirik, merancang kamus emosi campuran (Indonesia-Inggris), serta menggunakan metode Normalisasi Skor (Skor per 100 Kata) agar perbandingan tingkat keceriaan antar-era tetap adil, akurat, dan tidak bias secara statistik.",
+    metrics: [
+      { label: "Stack", value: "Python, Jyupiter Notebook" },
+      { label: "Framework", value: "Pandas, Numpy" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2025,
+    links: {
+      github: "https://github.com/Gilgamesh25/Analisis_Pergeseran_Emosi_Lirik_Lagu_Anak_Anak_Antar_Generasi.git",
+      demo: "https://colab.research.google.com/drive/1bUOw24Wq4T9iTGongEo1PS2DepMWP8C8?usp=sharing",
     },
     featured: true,
   }
