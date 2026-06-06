@@ -444,8 +444,8 @@ export const sideProjects: SideProject[] = [
     category: "Aplikasi Web",
     shortDescription:
       "Website Company Profile",
-    thumbnail: sp("photo-1460925895917-afdab827c52f"),
-    images: [sp("photo-1460925895917-afdab827c52f")],
+    thumbnail: "/images/projects/trikaya.png",
+    images: ["/images/projects/trikaya.png"],
     tools: ["Laravel10", "HTML", "Blade", "Tailwind CSS"],
     challenge:
       "Website Company Profile.",
@@ -460,6 +460,31 @@ export const sideProjects: SideProject[] = [
     links: {
       github: "https://github.com/Gilgamesh25/New-Website-Company",
       demo: "https://www.trikayarasajayafood.com/",
+    },
+    featured: true,
+  },
+  {
+    id: "sp-data1",
+    title: "House Price Prediction using Linear Regression",
+    category: "Data & Analitik",
+    shortDescription:
+      "menerapkan algoritma regresi linear untuk membangun model pembuat keputusan berdasarkan dimensi properti.",
+    thumbnail: "/images/projects/House Price Prediction using Linear Regression.jpg",
+    images: ["/images/projects/House Price Prediction using Linear Regression.jpg"],
+    tools: ["Python", "Colab", "Pandas", "Numpy"],
+    challenge:
+      "House Price Prediction using Linear Regression",
+    solution:
+      "House Price Prediction using Linear Regression.",
+    metrics: [
+      { label: "Stack", value: "Python" },
+      { label: "Framework", value: "Pandas, Numpy" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2025,
+    links: {
+      github: "https://github.com/Gilgamesh25/model-prediksi-harga-dengan-Machine-Learning-Linear_Regression-.",
+      demo: "https://colab.research.google.com/drive/1L7e0N9aYeQmrltd13BsveapaTBRsX1c7?usp=sharing",
     },
     featured: true,
   }
