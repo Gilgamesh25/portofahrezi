@@ -38,6 +38,7 @@ export const skillGroups: SkillGroup[] = [
       "CapCut",
       "Adobe Photoshop",
       "Google Sheets",
+      "Looker Studio",
     ],
   },
   {
@@ -51,7 +52,6 @@ export const skillGroups: SkillGroup[] = [
       "JavaScript",
       "PHP",
       "Python",
-      "Looker Studio",
     ],
   },
   {
@@ -65,6 +65,7 @@ export const skillGroups: SkillGroup[] = [
       "Kolaborasi Tim",
       "Analisis Kebutuhan",
       "Dokumentasi Sistematis",
+      "Kreatif dan Inovatif",
     ],
   },
 ];
@@ -241,6 +242,15 @@ export const certifications: Certification[] = [
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/1O6zfr-nwoykOK5urSJT8lkjOB--ZfYED/view?usp=sharing",
+  },
+  
+  {
+    id: "cert-kom",
+    title: "Manajemen Perkantoran",
+    issuer: "Kelas.Work",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1h2gINoqBmTzoFTuYdEEFvn48Fhm9cvN5/view?usp=sharing",
   },
 ];
 
@@ -527,7 +537,7 @@ export const sideProjects: SideProject[] = [
     solution:
       "Solusi yang diterapkan adalah dengan merancang antarmuka (UI/UX) yang minimalis dan responsif, serta memangkas proses input menjadi satu formulir ringkas yang langsung memperbarui dasbor saldo secara real-time. Selain itu, integrasi diagram lingkaran (pie chart) atau grafik sederhana ditambahkan untuk mengelompokkan pengeluaran berdasarkan kategori secara otomatis, sehingga pengguna mendapatkan wawasan finansial yang jelas tanpa perlu melalui navigasi yang kompleks.",
     metrics: [
-      { label: "Stack", value: "Python, Jyupiter Notebook" },
+      { label: "Stack", value: "HTML, CSS, JavaScript" },
       { label: "Framework", value: "React.Js, TailwindCSS" },
       { label: "Status", value: "Aktif" },
     ],
@@ -551,7 +561,7 @@ export const sideProjects: SideProject[] = [
     solution:
       "Solusi yang diterapkan adalah mengimplementasikan teknik pencarian debounce pada kolom input guna membatasi frekuensi pemanggilan API hingga pengguna selesai mengetik, serta menggunakan sistem caching lokal untuk menyimpan data film yang sering diakses. Selain itu, performa visual dioptimalkan melalui metode lazy loading untuk gambar poster film, sehingga aset visual berukuran besar hanya akan dimuat ketika masuk ke dalam area pandang pengguna (viewport), menjadikan navigasi aplikasi tetap lancar dan hemat kuota data.",
     metrics: [
-      { label: "Stack", value: "Python, Jyupiter Notebook" },
+      { label: "Stack", value: "HTML, CSS, JavaScript" },
       { label: "Framework", value: "React.Js, TailwindCSS" },
       { label: "Status", value: "Aktif" },
     ],
