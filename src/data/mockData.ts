@@ -456,7 +456,7 @@ export const sideProjects: SideProject[] = [
       { label: "Animasi", value: "Framer Motion" },
       { label: "Status", value: "Aktif" },
     ],
-    year: 2025,
+    year: 2024,
     links: {
       github: "https://github.com/Gilgamesh25/New-Website-Company",
       demo: "https://www.trikayarasajayafood.com/",
@@ -481,7 +481,7 @@ export const sideProjects: SideProject[] = [
       { label: "Framework", value: "Pandas, Numpy" },
       { label: "Status", value: "Aktif" },
     ],
-    year: 2025,
+    year: 2026,
     links: {
       github: "https://github.com/Gilgamesh25/model-prediksi-harga-dengan-Machine-Learning-Linear_Regression-.",
       demo: "https://colab.research.google.com/drive/1L7e0N9aYeQmrltd13BsveapaTBRsX1c7?usp=sharing",
@@ -506,10 +506,58 @@ export const sideProjects: SideProject[] = [
       { label: "Framework", value: "Pandas, Numpy" },
       { label: "Status", value: "Aktif" },
     ],
-    year: 2025,
+    year: 2026,
     links: {
       github: "https://github.com/Gilgamesh25/Analisis_Pergeseran_Emosi_Lirik_Lagu_Anak_Anak_Antar_Generasi.git",
       demo: "https://colab.research.google.com/drive/1bUOw24Wq4T9iTGongEo1PS2DepMWP8C8?usp=sharing",
+    },
+    featured: true,
+  },
+  {
+    id: "sp-web2",
+    title: "Money Tracker Sederhana",
+    category: "Aplikasi Web",
+    shortDescription:
+      "Aplikasi pencatat keuangan berbasis web yang dirancang secara minimalis untuk membantu pengguna memantau pemasukan dan pengeluaran harian dengan mudah dan efisien.",
+    thumbnail: "/images/projects/money.png",
+    images: ["/images/projects/money.png"],
+    tools: ["React.Js", "JavaScript", "Vite", "TailwindCSS"],
+    challenge:
+      "Tantangan utama dalam mengembangkan aplikasi pencatatan keuangan sederhana adalah menjaga keseimbangan antara fungsionalitas dan kemudahan pengguna (user experience). Banyak pengguna malas mencatat keuangan jika alur penginputan data terlalu rumit atau membutuhkan banyak langkah, sementara di sisi lain, aplikasi tetap harus mampu menyajikan visualisasi data aliran kas (pemasukan dan pengeluaran) secara akurat dan mudah dipahami dalam sekali lihat.",
+    solution:
+      "Solusi yang diterapkan adalah dengan merancang antarmuka (UI/UX) yang minimalis dan responsif, serta memangkas proses input menjadi satu formulir ringkas yang langsung memperbarui dasbor saldo secara real-time. Selain itu, integrasi diagram lingkaran (pie chart) atau grafik sederhana ditambahkan untuk mengelompokkan pengeluaran berdasarkan kategori secara otomatis, sehingga pengguna mendapatkan wawasan finansial yang jelas tanpa perlu melalui navigasi yang kompleks.",
+    metrics: [
+      { label: "Stack", value: "Python, Jyupiter Notebook" },
+      { label: "Framework", value: "React.Js, TailwindCSS" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2026,
+    links: {
+      github: "https://github.com/Gilgamesh25/money-tracker-sederhana",
+    },
+    featured: true,
+  },
+  {
+    id: "sp-web3",
+    title: "movie explorer",
+    category: "Aplikasi Web",
+    shortDescription:
+      "aplikasi berbasis web modern yang dirancang untuk membantu pengguna menjelajahi dunia sinematik dengan mudah. Memanfaatkan integrasi pihak ketiga (TheMovieDB), aplikasi ini memungkinkan pengguna untuk mencari film berdasarkan judul, menelusuri daftar film yang sedang populer (trending), serta melihat informasi detail seperti sinopsis, rating, tanggal rilis, hingga poster film melalui antarmuka yang bersih dan responsif.",
+    thumbnail: "/images/projects/movie.png",
+    images: ["/images/projects/movie.png"],
+    tools: ["React.Js", "JavaScript", "Vite", "TailwindCSS"],
+    challenge:
+      "Tantangan utama dalam membangun aplikasi movie explorer adalah mengelola efisiensi pemanggilan data API eksternal dan menjaga performa pemuatan gambar (poster/banner) beresolusi tinggi. Proses pencarian yang dinamis dan fitur pengguliran halaman (infinite scroll atau pagination) berpotensi memicu jumlah permintaan data (request) yang berlebihan ke server API, yang tidak hanya memperlambat respons aplikasi pada koneksi internet lambat tetapi juga berisiko melampaui batas kuota API (rate limiting).",
+    solution:
+      "Solusi yang diterapkan adalah mengimplementasikan teknik pencarian debounce pada kolom input guna membatasi frekuensi pemanggilan API hingga pengguna selesai mengetik, serta menggunakan sistem caching lokal untuk menyimpan data film yang sering diakses. Selain itu, performa visual dioptimalkan melalui metode lazy loading untuk gambar poster film, sehingga aset visual berukuran besar hanya akan dimuat ketika masuk ke dalam area pandang pengguna (viewport), menjadikan navigasi aplikasi tetap lancar dan hemat kuota data.",
+    metrics: [
+      { label: "Stack", value: "Python, Jyupiter Notebook" },
+      { label: "Framework", value: "React.Js, TailwindCSS" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2026,
+    links: {
+      github: "https://github.com/Gilgamesh25/movie-explorer",
     },
     featured: true,
   }
