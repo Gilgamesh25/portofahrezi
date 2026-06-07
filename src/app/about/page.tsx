@@ -17,7 +17,7 @@ export default function AboutPage() {
         <SectionHeading
           eyebrow="Pengalaman"
           title="Kerja & magang"
-          description="Dari yang terbaru dulu—biar kebayang saya lagi di mana."
+          description="Dari yang terbaru dulu, biar kebayang saya lagi di mana."
         />
         <Timeline />
       </section>
