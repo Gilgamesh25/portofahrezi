@@ -52,6 +52,7 @@ export const skillGroups: SkillGroup[] = [
       "JavaScript",
       "PHP",
       "Python",
+      "Google Stitch",
     ],
   },
   {
@@ -66,6 +67,7 @@ export const skillGroups: SkillGroup[] = [
       "Analisis Kebutuhan",
       "Dokumentasi Sistematis",
       "Kreatif dan Inovatif",
+      "AI Prompting",
     ],
   },
 ];
