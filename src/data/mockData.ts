@@ -572,7 +572,32 @@ export const sideProjects: SideProject[] = [
       github: "https://github.com/Gilgamesh25/movie-explorer",
     },
     featured: true,
-  }
+  },
+  {
+    id: "sp-web4",
+    title: "CookWhat'sLeft",
+    category: "Aplikasi Web",
+    shortDescription:
+      "Aplikasi pencarian resep masakan berbasis bahan yang kamu miliki. Cukup pilih bahan yang ada di kulkas, Apps akan menampilkan rekomendasi resep yang bisa kamu masak!.",
+    thumbnail: "/images/projects/cook.png",
+    images: ["/images/projects/cook.png"],
+    tools: ["React.Js", "JavaScript", "Vite", "TailwindCSS"],
+    challenge:
+      "Pencarian hanya bisa dari data lokal, tidak bisa mencari resep online.",
+    solution:
+      "Integrasi Spoonacular API untuk mendapat ribuan resep dari internet.",
+    metrics: [
+      { label: "Stack", value: "HTML, CSS, JavaScript" },
+      { label: "Framework", value: "React.Js, TailwindCSS" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2026,
+    links: {
+      github: "https://github.com/Gilgamesh25/cook-whats-left",
+      demo: "https://gilgamesh25.github.io/cook-whats-left/",
+    },
+    featured: true,
+  },
 ];
 
 export function getSideProjectById(id: string): SideProject | undefined {
