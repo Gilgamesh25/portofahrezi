@@ -254,6 +254,24 @@ export const certifications: Certification[] = [
     credentialUrl:
       "https://drive.google.com/file/d/1h2gINoqBmTzoFTuYdEEFvn48Fhm9cvN5/view?usp=sharing",
   },
+
+  {
+    id: "cert-supply",
+    title: "Management Supply Chain untuk Perusahaan Manufaktur",
+    issuer: "Kelas.Work",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1RbPTJOzH3DfqwIszcpchxZ-tlLli-i6K/view?usp=sharing",
+  },
+
+  {
+    id: "cert-AI",
+    title: "LLM-Based Tools and Gemini API Integration for Data Scientists",
+    issuer: "HACKTIV8",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1axiv2SXndslHuTVW-hfhJVnvFRYy2USG/view?usp=sharing",
+  },
 ];
 
 const img = (id: string, w = 800) =>
@@ -595,6 +613,31 @@ export const sideProjects: SideProject[] = [
     links: {
       github: "https://github.com/Gilgamesh25/cook-whats-left",
       demo: "https://gilgamesh25.github.io/cook-whats-left/",
+    },
+    featured: true,
+  },
+    {
+    id: "sp-Ui1",
+    title: "GUD App Danamon",
+    category: "Lainnya",
+    shortDescription:
+      "GUD (Great Union of Danamon) adalah konsep Financial Super App yang dirancang untuk mengintegrasikan kebutuhan finansial pribadi dan bisnis dalam satu platform.",
+    thumbnail: "/images/projects/GUD.jpg",
+    images: ["/images/projects/GUD.jpg"],
+    tools: ["Figma", "Google Stitch"],
+    challenge:
+      "Menyederhanakan aplikasi dengan banyak fitur dalam satu platform tanpa mengorbankan kemudahan penggunaan. GUD mengintegrasikan layanan perbankan, pengelolaan keuangan, pembiayaan, UMKM, dan merchant sehingga berpotensi membuat pengguna merasa kewalahan jika semua fitur ditampilkan sekaligus.",
+    solution:
+      "Saya mengatasi tantangan tersebut dengan menerapkan pendekatan feature prioritization dan progressive disclosure. Fitur utama seperti Financial Dashboard, Financial Insights, dan Pockets dijadikan fokus utama pada halaman awal, sedangkan fitur pendukung seperti GUD Biz, Adira, dan Merchant ditampilkan ketika dibutuhkan. Selain itu, saya menyusun information architecture dan user flow yang jelas agar navigasi tetap sederhana, intuitif, dan mudah dipahami meskipun aplikasi memiliki banyak fitur",
+    metrics: [
+      { label: "Stack", value: "Figma, Google Stitch," },
+      { label: "Framework", value: "" },
+      { label: "Status", value: "Aktif" },
+    ],
+    year: 2026,
+    links: {
+      github: "",
+      demo: "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd.in%2FgPdnQTpJ&urlhash=zd-t&mt=DVzNqRYMGkpyOsIm21RexhzeD-RPvXBr-wbVaiVSOtZRlPL7WdJbpgAc8EZvOfiXOtlDgJF09LECqcKBFMAE47fvRr3P&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BqxtJI1JXTZyC7r6WCSMdQg%3D%3D",
     },
     featured: true,
   },
