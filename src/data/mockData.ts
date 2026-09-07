@@ -10,18 +10,19 @@ import type {
 
 export const siteProfile: SiteProfile = {
   name: "Fahrezi Auliasyafa",
-  title: "IT & konten kreatif",
+  title: "IT, Administrasi & konten kreatif",
   elevatorPitch:
     "Lulusan Informatika UMSIDA (IPK 3,89). Sehari hari saya ngoding web sederhana, bikin materi visual, dan ikut dokumentasi acara. Kalau butuh orang yang bisa paham kebutuhan tim sekaligus beresin tampilan dan teknisnya, saya biasanya di situ.",
   email: "fahreziaulia19@gmail.com",
   whatsapp: "+6285748947956",
   linkedin: "https://www.linkedin.com/in/fahrezi-auliasyafa",
   instagram: "https://www.instagram.com/aulxsya_",
-  cvUrl: encodeURI("/cv/CV_FAHREZI AULIASYAFA (1).pdf"),
-  cvDownloadName: "CV_Fahrezi_Auliasyafa.pdf",
+  cvUrl:
+    "https://drive.google.com/uc?export=download&id=1rbjEIaocphOXgHNZToqfBGCv_eZq1JjU",
+  cvDownloadName: "CV_Fahrezi_Auliasyafa_2026.pdf",
   location: "Sidoarjo, Indonesia",
   metaDescription:
-    "Portofolio Fahrezi Auliasyafa, web, dokumentasi acara, dan konten kreatif. Based in Surabaya.",
+    "Portofolio Fahrezi Auliasyafa, web, dokumentasi acara, dan konten kreatif. Based in Sidoarjo.",
   profilePhoto: "/images/profil.png",
 };
 
@@ -39,6 +40,7 @@ export const skillGroups: SkillGroup[] = [
       "Adobe Photoshop",
       "Google Sheets",
       "Looker Studio",
+      "Hermes",
     ],
   },
   {
@@ -53,6 +55,8 @@ export const skillGroups: SkillGroup[] = [
       "PHP",
       "Python",
       "Google Stitch",
+      "MySQL",
+      "AppScript",
     ],
   },
   {
@@ -68,6 +72,8 @@ export const skillGroups: SkillGroup[] = [
       "Dokumentasi Sistematis",
       "Kreatif dan Inovatif",
       "AI Prompting",
+      "Visualisasi Data",
+      "Manajemen Perkantoran",
     ],
   },
 ];
@@ -124,6 +130,17 @@ export const experiences: Experience[] = [
       { label: "Kerjaan", value: "Bikin halaman & urus isi portal pelatihan" },
     ],
   },
+  {
+    id: "JNE",
+    organization: "KPSG",
+    role: "Sales Counter Officer",
+    period: "August 2026",
+    startDate: "2026-08-14",
+    endDate: "2022-08-31",
+    highlights: [
+      { label: "Kerjaan", value: "Bantu pelanggan beli barang & jasa JNE, Input Stock di Gudang, Memberikan Solusi dan Menerima Komplain" },
+    ],
+  },
 ];
 
 export const education: Education[] = [
@@ -134,9 +151,21 @@ export const education: Education[] = [
     period: "2021 – 2025",
     gpa: "3,89",
     description:
-      "Belajar bikin aplikasi/web, visualisasi data, plus terbiasa presentasi dan kerja kelompok.",
+      "Mendalami pengembangan aplikasi web, visualisasi data, dan arsitektur basis data relasional. Menggabungkan keterampilan teknis dalam pemecahan masalah komputasi dengan kepemimpinan proyek kolaboratif dan penyusunan laporan teknis terstruktur.",
     diplomaUrl: "https://drive.google.com/file/d/1nEsHRnf5Z9LRHPS53RKGzpUOOX3LPvFK/view?usp=drive_link",
   },
+
+  {
+    id: "SMA",
+    institution: "SMA Negeri 1 GOndang Wetan",
+    degree: "Matematika & Ilmu Pengetahuan Alam (MIPA)",
+    period: "2018 – 2021",
+    gpa: "84,97",
+    description:
+      "Memiliki fokus pada pemahaman ilmu eksakta, logika matematika, dan pemecahan masalah analitis. Aktif dalam kegiatan akademik dan kolaborasi tugas kelompok yang membangun dasar kuat untuk transisi ke bidang teknologi dan sains komputasi.",
+    diplomaUrl: "https://drive.google.com/file/d/1nEsHRnf5Z9LRHPS53RKGzpUOOX3LPvFK/view?usp=drive_link",
+  },
+
 ];
 
 export const certifications: Certification[] = [
@@ -271,6 +300,24 @@ export const certifications: Certification[] = [
     year: 2026,
     credentialUrl:
       "https://drive.google.com/file/d/1axiv2SXndslHuTVW-hfhJVnvFRYy2USG/view?usp=sharing",
+  },
+  
+  {
+    id: "K3",
+    title: "Ahli K3 Umum",
+    issuer: "Miners Education",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1jB2DRSAOj8R1ryzL_iWhUjjc9qZR5hX1/view?usp=sharing",
+  },
+
+  {
+    id: "Kiro",
+    title: "Apec-Driven Development with Kiro",
+    issuer: "Dicoding Indonesia",
+    year: 2026,
+    credentialUrl:
+      "https://drive.google.com/file/d/1zHo3YLU-uo4Zaw-wcODrcYpAmdv6_do8/view?usp=sharing",
   },
 ];
 

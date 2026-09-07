@@ -1,7 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 interface SectionHeadingProps {
   eyebrow?: string;
   title: string;
@@ -18,26 +16,24 @@ export function SectionHeading({
   const alignClass = align === "center" ? "text-center mx-auto" : "text-left";
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 16 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: "-80px" }}
-      transition={{ duration: 0.45 }}
-      className={`max-w-2xl mb-10 md:mb-12 ${alignClass}`}
-    >
+    <div className={`max-w-2xl mb-8 md:mb-10 lg:mb-14 ${alignClass}`}>
       {eyebrow && (
-        <p className="text-sm font-semibold uppercase tracking-widest text-secondary mb-2">
-          {eyebrow}
-        </p>
+        <div className={`flex items-center gap-2 mb-3 md:mb-4 ${align === "center" ? "justify-center" : ""}`}>
+          <span className="h-px w-6 md:w-8 bg-accent" />
+          <p className="text-[10px] md:text-xs font-semibold uppercase tracking-widest text-accent">
+            {eyebrow}
+          </p>
+          <span className="h-px w-6 md:w-8 bg-accent" />
+        </div>
       )}
-      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">
+      <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold text-primary tracking-tight leading-tight">
         {title}
       </h2>
       {description && (
-        <p className="mt-3 text-secondary text-base md:text-lg leading-relaxed">
+        <p className="mt-2 md:mt-3 text-sm md:text-base lg:text-lg text-secondary leading-relaxed">
           {description}
         </p>
       )}
-    </motion.div>
+    </div>
   );
 }
